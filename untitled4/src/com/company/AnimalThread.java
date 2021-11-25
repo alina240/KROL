@@ -30,7 +30,7 @@ public class AnimalThread extends Thread {
                 Thread.sleep(timeToStep);
                 System.out.println(getName() + (" - ")+(i*100) + " м ");
             } catch (InterruptedException e) {
-                /*
+                /**
                  *поток в ожидании,мб спит
                  */
                 e.printStackTrace();
